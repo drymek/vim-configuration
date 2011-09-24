@@ -25,6 +25,9 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 """ Up to 1000 files using: vim -p ./*
 set tabpagemax=1000
 
+""" Max command history
+set history=1000
+
 """ Completion
 """ Command line completion (first longest, than list of files)
 set wildmode=longest,list
