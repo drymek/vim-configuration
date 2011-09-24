@@ -32,6 +32,10 @@ set wildmode=longest,list
 """ Scroll to lines before
 set scrolloff=2
 
+""" Enable loading the plugin files for specific file types
+filetype plugin on
+""" Enable loading the indent file for specific file types
+filetype indent on
 
 """ CVS/SVN/SVK/git/hg/bzr integration plugin
 """ http://www.vim.org/scripts/script.php?script_id=90
@@ -51,3 +55,4 @@ let g:EclimProjectTreeAutoOpen=1
 let g:EclimProjectTreeExpandPathOnOpen=1
 let g:EclimProjectTreeSharedInstance=1
 let g:EclimProjectTreeActions = [ {'pattern': '.*', 'name': 'Tab', 'action': 'tabnew'} ]
+
