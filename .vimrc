@@ -1,9 +1,16 @@
-"""""""""""""""""""""""""""""""""""""""""
-" Vim Configuration,                    "
-" @author drymek marcin@dryka.pl        "
-"""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""
+""" Vim Configuration,             """
+""" @author drymek marcin@dryka.pl """
+""""""""""""""""""""""""""""""""""""""
 
 """ Colors configuration
-" 256 colors and wombat scheme
+""" 256 colors and wombat scheme
 set t_Co=256
 colorscheme wombat256
+
+""" Search
+""" Incremental, case insensitive (but smartcase)
+set incsearch
+set ignorecase
+set smartcase
+
