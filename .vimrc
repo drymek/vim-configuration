@@ -25,6 +25,14 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 """ Up to 1000 files using: vim -p ./*
 set tabpagemax=1000
 
+""" Completion
+""" Command line completion (first longest, than list of files)
+set wildmode=longest,list
+
+""" Scroll to lines before
+set scrolloff=2
+
+
 """ CVS/SVN/SVK/git/hg/bzr integration plugin
 """ http://www.vim.org/scripts/script.php?script_id=90
 
