@@ -44,3 +44,9 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 """ DBGp client : a remote debugger interface to the DBGp protocol (tested only with XDebug/PHP) 
 """ http://www.vim.org/scripts/script.php?script_id=1929
 
+""" Eclim settings, auto open ProjectTree
+""" http://eclim.org/
+let g:EclimProjectTreeAutoOpen=1
+let g:EclimProjectTreeExpandPathOnOpen=1
+let g:EclimProjectTreeSharedInstance=1
+let g:EclimProjectTreeActions = [ {'pattern': '.*', 'name': 'Tab', 'action': 'tabnew'} ]
