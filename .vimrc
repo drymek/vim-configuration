@@ -28,3 +28,7 @@ set tabpagemax=1000
 """ CVS/SVN/SVK/git/hg/bzr integration plugin
 """ http://www.vim.org/scripts/script.php?script_id=90
 
+""" PDV - phpDocumentor for Vim : Provides really comfortable generation of phpDocumentor doc blocks for PHP4 & 5. 
+""" http://www.vim.org/scripts/script.php?script_id=1355
+nnoremap <C-P> :call PhpDocSingle()<CR> 
+vnoremap <C-P> :call PhpDocRange()<CR> 
