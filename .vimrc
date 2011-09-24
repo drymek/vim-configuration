@@ -49,6 +49,11 @@ filetype plugin on
 """ Enable loading the indent file for specific file types
 filetype indent on
 
+""" Enable syntax highlight
+syntax on
+""" Display ruler (cursor position)
+set ruler
+
 """ CVS/SVN/SVK/git/hg/bzr integration plugin
 """ http://www.vim.org/scripts/script.php?script_id=90
 
