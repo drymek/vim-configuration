@@ -46,6 +46,7 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 
 """ Eclim settings, auto open ProjectTree
 """ http://eclim.org/
+inoremap <C-@> <C-x><C-o>
 let g:EclimProjectTreeAutoOpen=1
 let g:EclimProjectTreeExpandPathOnOpen=1
 let g:EclimProjectTreeSharedInstance=1
