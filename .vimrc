@@ -16,3 +16,7 @@ set ignorecase
 set smartcase
 set hlsearch
 
+""" Temporary directory
+""" Move swp files to directories in order
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
