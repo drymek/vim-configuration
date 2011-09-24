@@ -32,3 +32,7 @@ set tabpagemax=1000
 """ http://www.vim.org/scripts/script.php?script_id=1355
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
+
+""" DBGp client : a remote debugger interface to the DBGp protocol (tested only with XDebug/PHP) 
+""" http://www.vim.org/scripts/script.php?script_id=1929
+
