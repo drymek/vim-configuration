@@ -10,7 +10,9 @@ colorscheme wombat256
 
 """ Search
 """ Incremental, case insensitive (but smartcase)
+""" highlight search results
 set incsearch
 set ignorecase
 set smartcase
+set hlsearch
 
