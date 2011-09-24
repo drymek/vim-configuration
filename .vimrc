@@ -32,6 +32,15 @@ set wildmode=longest,list
 """ Scroll to lines before
 set scrolloff=2
 
+""" Automatic indentation
+set cindent
+
+""" Tab settings (4 spaces)
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
 """ Enable loading the plugin files for specific file types
 filetype plugin on
 """ Enable loading the indent file for specific file types
