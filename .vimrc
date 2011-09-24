@@ -20,3 +20,7 @@ set hlsearch
 """ Move swp files to directories in order
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+""" Max tabs 
+""" Up to 1000 files using: vim -p ./*
+set tabpagemax=1000
