@@ -7,6 +7,7 @@
 """ 256 colors and wombat scheme
 set t_Co=256
 colorscheme wombat256
+source ~/.vim/syntax/twig.vim
 
 """ Search
 """ Incremental, case insensitive (but smartcase)
