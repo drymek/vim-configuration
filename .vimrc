@@ -17,6 +17,9 @@ set ignorecase
 set smartcase
 set hlsearch
 
+""" Line numbers
+set number
+
 """ Temporary directory
 """ Move swp files to directories in order
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
